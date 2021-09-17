@@ -1,0 +1,10 @@
+micronaut:
+  application:
+    name: serverSideEventExample
+  server:
+    cors:
+      enabled: true
+      configurations:
+        web:
+          allowedOrigins:
+            - http://127.0.0.1:5500
